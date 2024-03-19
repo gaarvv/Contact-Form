@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Lobster', cursive;
+    text-align:center;
+}
+body{
+    background-color: #684516;
+    color: #fff;
+}
+form{
+    background-color: #e8ac5d;
+    font-family: 'Fjalla One', sans-serif;
+    color: black;
+    padding: 10px 10px 10px 20px;
+    border: 2px solid rgb(138, 126, 126);
+    border-radius: 18px;
+}
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="file"]{
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+}
+input[type="submit"]{
+    color: white;
+    background-color: #361795;
+    width: 98%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;
+    margin: 10px;
+    border: none;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: #573f9c;
+}

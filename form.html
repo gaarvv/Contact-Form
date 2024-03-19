@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Trip Details!</h1>
+    <form method="post" action="form.php">
+        <p>Name:<input type="text" name="name" id="name" placeholder="Enter your name"></p>
+        <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" name="gender" id="male" value="m"><label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="f"><label for="female">Female</label>
+        </fieldset>
+        <p>Contact Number:<input type="number" name="number" id="number" placeholder="Enter Number"></p>
+        <p>Enter your email:<input type="email" name="email" id="email" placeholder="Enter email address"></p>
+        <p>Enter your password:<input type="password" name="password" id="password" placeholder="Enter password"></p>
+        <p>Enter your departure date:<input type="date" name="date" id="date"></p>
+        <p>Enter your returning date:<input type="date" name="date-return" id="date"></p>
+        <p>Enter your adharcard picture:<input type="file" name="adharcard" id="adharcard"></p>
+        <input type="submit" value="Go!">
+    </form>
+</body>
+</html>
