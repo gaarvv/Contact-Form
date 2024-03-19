@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="Paymentform_css.css">
+</head>
+<body>
+    <div class="container">
+    <form action="">
+        <h1 class="main_heading">Payment Form</h1>
+        <h2>Contact Information</h2>
+        <p>Name: <input type="text" name="name" placeholder="Full Name" required></p>
+    <fieldset>
+        <legend>Gender</legend>
+        <p>
+            Male <input type="radio" name="gender" id="male"required>
+            Female <input type="radio" name="gender" id="female"required>
+        </p>
+    </fieldset>
+    <p>Address: <textarea name="address" placeholder="Enter Your Address" id="address" cols="80" rows="8"required></textarea></p>
+    <p>Email <input type="email" placeholder="Enter Email" name="email" id="email"required></p>
+    <p>Pincode <input type="number" placeholder="Enter Pincode" name="pincode" id="pincode"required></p>
+    <hr>
+    <h2>Payment Information</h2>
+    <p>Card type:</p>
+    <select name="card_type" id="card_type"required>
+        <option value="">--Select a Card Type</option>
+        <option value="Visa">Visa</option>
+        <option value="Master Card">Master Card</option>
+        <option value="Rupay">Rupay</option>
+    </select>
+    <p>Card Number <input type="number" placeholder="1111-2222-3333-4444" name="number" id="number"required></p>
+    <p>
+        Expiration Date: <input type="date" name="exp_date" id="exp_date"required>
+    </p>
+    <p>CVV <input type="password" placeholder="123" name="CVV" id="CVV"required></p>
+    <input type="submit" value="Pay Now">
+    <input type="reset" name="" id="">
+    </form>
+    <footer>
+        <a href="Mega_project.html">Home Page</a>
+        <a href="page2.html">Page 2</a>
+        <a href="new.html">First page</a>
+    </footer>
+
+</div>
+</body>
+</html>
