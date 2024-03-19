@@ -1,0 +1,36 @@
+.container{
+    background-color: rgba(211, 211, 211, 0.453);
+    padding: 10px 10px 10px 20px;
+    border: 2px solid rgb(138, 126, 126);
+    border-radius: 18px;
+
+}
+h1{
+    font-family:'Anton';
+    font-size: 48px;
+    text-align: center;
+}
+p,#name,#email,#number,#message{
+    font-family: 'Mukta';
+    font-weight: bolder;
+    padding: 2px;
+}
+p{
+    font-size: 28px;
+    width: 100%;
+}
+input[type="submit"]{
+    background-color: #4daea1;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor:pointer;
+    width: 100%;
+}
+input[type="text"],input[type="email"],input[type="number"],textarea{
+    width: 100%;
+    padding: 2px;
+    border: none;
+    border-radius: 5px;
+}
